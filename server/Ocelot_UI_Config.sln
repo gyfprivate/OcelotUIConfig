@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotManagement.API", "OcelotManagement.API\OcelotManagement.API.csproj", "{F62CD47E-23C1-46C0-B0DC-EFFF7E28715D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotManagement.Application", "OcelotManagement.Application\OcelotManagement.Application.csproj", "{4CF17D6C-92A6-4A6A-9CE4-A6EC0EED89DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotManagement.Domain", "OcelotManagement.Domain\OcelotManagement.Domain.csproj", "{C406F033-1D47-43AB-A3DF-395592D7343A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotManagement.Infrastructure", "OcelotManagement.Infrastructure\OcelotManagement.Infrastructure.csproj", "{205BAB97-423C-47C3-8447-B0D18794242D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotManagement.Data", "OcelotManagement.Data\OcelotManagement.Data.csproj", "{0DFC3A19-872F-44AA-B9A8-DBB0A1A89E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotManagement.Contracts", "OcelotManagement.Contracts\OcelotManagement.Contracts.csproj", "{A6BEBBDD-F3B9-49AD-B1DE-90176CDECDC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F62CD47E-23C1-46C0-B0DC-EFFF7E28715D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62CD47E-23C1-46C0-B0DC-EFFF7E28715D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62CD47E-23C1-46C0-B0DC-EFFF7E28715D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62CD47E-23C1-46C0-B0DC-EFFF7E28715D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF17D6C-92A6-4A6A-9CE4-A6EC0EED89DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF17D6C-92A6-4A6A-9CE4-A6EC0EED89DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF17D6C-92A6-4A6A-9CE4-A6EC0EED89DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF17D6C-92A6-4A6A-9CE4-A6EC0EED89DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C406F033-1D47-43AB-A3DF-395592D7343A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C406F033-1D47-43AB-A3DF-395592D7343A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C406F033-1D47-43AB-A3DF-395592D7343A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C406F033-1D47-43AB-A3DF-395592D7343A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205BAB97-423C-47C3-8447-B0D18794242D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205BAB97-423C-47C3-8447-B0D18794242D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205BAB97-423C-47C3-8447-B0D18794242D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205BAB97-423C-47C3-8447-B0D18794242D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFC3A19-872F-44AA-B9A8-DBB0A1A89E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFC3A19-872F-44AA-B9A8-DBB0A1A89E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFC3A19-872F-44AA-B9A8-DBB0A1A89E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFC3A19-872F-44AA-B9A8-DBB0A1A89E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BEBBDD-F3B9-49AD-B1DE-90176CDECDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BEBBDD-F3B9-49AD-B1DE-90176CDECDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BEBBDD-F3B9-49AD-B1DE-90176CDECDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BEBBDD-F3B9-49AD-B1DE-90176CDECDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

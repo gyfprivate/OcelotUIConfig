@@ -1,0 +1,6 @@
+@OcelotManagement.API_HostAddress = http://localhost:5003
+
+GET {{OcelotManagement.API_HostAddress}}/swagger/
+Accept: application/json
+
+###

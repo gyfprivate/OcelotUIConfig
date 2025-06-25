@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OcelotManagement.Application\OcelotManagement.Application.csproj" />
+    <ProjectReference Include="..\OcelotManagement.Data\OcelotManagement.Data.csproj" />
+    <ProjectReference Include="..\OcelotManagement.Infrastructure\OcelotManagement.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
